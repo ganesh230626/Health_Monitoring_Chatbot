@@ -1,0 +1,4 @@
+rasa
+spacy
+scikit-learn
+flask
