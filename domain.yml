@@ -1,0 +1,15 @@
+
+intents:
+  - greet
+  - goodbye
+  - report_symptom
+entities:
+  - symptom
+slots:
+  symptom:
+    type: text
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you with your health today?"
+  utter_goodbye:
+    - text: "Take care! Goodbye."
